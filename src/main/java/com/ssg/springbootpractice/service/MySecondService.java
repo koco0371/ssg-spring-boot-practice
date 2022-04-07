@@ -1,9 +1,13 @@
 package com.ssg.springbootpractice.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-//@Component
+
+@Component
 public class MySecondService implements MyService {
+
+  
 
     @Override
     public String hello() {
